@@ -11,50 +11,95 @@
 [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![React-Leaflet](https://img.shields.io/badge/React--Leaflet-88C057?style=for-the-badge&logo=React&logoColor=white&labelColor=88C057)](https://react-leaflet.js.org/)
+<h1>A Contact Management App with Charts and Maps of Covid Cases all over the World.  
+<h1>What is the task assigned by Taiyo.AI ?</h1>
+<ul>
+<li>Create a Contact Management app with Charts and Maps using ReactJS, TypeScript,
+TailwindCSS, React Router v6 and React Query aka TanstackQuery</li>
+<li>Create a GitHub/GitLab repo and possibly deploy your app on free services like Vercel, Github
+Pages or Heroku etc</li>
+</ul>
+<h1>Objectives of Contact Page</h1>
+<ul>
+    <li>The app should have a form for adding new contacts.
+    </li>
+    <li>The app should display a list of all added contacts</li>
+    <li>
+    Each contact should have a button to view the contacts details
+    </li>
+    <li>
+    The app should be able to edit and delete contacts
+    </li>
+    <li>
+    Make use of Redux to store the contact data
+    </li>
+    
+</ul>
+<h1>Objectives of Charts and Maps Page</h1>
+<ul>
+    <li>Build a simple dashboard with:
+    </li>
+    <li>- A line graph showing the cases fluctuations</li>
+    <li>
+    - A react leaflet map with markers that indicates the country name, total number
+    of active, recovered cases and deaths in that particular country as a popup
+    </li> 
+</ul>
 
+
+
+<h1>Technologies Used</h1>
+<ul>
+    <li>ReactJs
+    </li>
+    <li>TypeScript</li>
+    <li>
+  TailwindCSS
+    </li> 
+    <li>React Router v6
+    </li>
+    <li>React Query</li>
+    <li>
+    Redux
+    </li> 
+</ul>
+
+<h1><strong> Development Installation </strong></h1>
+
+Follow these instructions to set up your development environment, which you need to do before you start contributing code to this project.
+
+<h1><strong> Manual Installation </strong></h1>
+
+_Note_: The installation steps assume you are using a Unix-like shell. If you are using Windows, you will need to use `copy` instead of `cp`.
+
+1. Install Node.js. The recommended way is to Node through [nvm](https://github.com/nvm-sh/nvm). You can also install [node.js](https://nodejs.org/download/release/v18.2.0/) version 18.2.0 directly from the Node.js website.
+2. [Clone](https://github.com/Gobind557/Covid-tracker-taiyo.git) your new fork of the repository from GitHub onto your local computer.
+
+   ```
+   $ git clone https://github.com/Gobind557/Covid-tracker-taiyo.git
+   ```
+3. Navigate to root directory and implement the following commands :
+
+   ```
+   
+   $ npm install
+   $ npm run start
+   ```
 ## Pages:
-- `/` Contact Page
-- `/chart` Chart page
+- `/`Chart page 
+- `/contacts` contactpage 
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## API Endpoints used
+<h1>APIs Used</h1>
+<ul>
+    <li>World wide data of cases: https://disease.sh/v3/covid-19/all
+    </li>
+    <li>Country Specific data of cases: https://disease.sh/v3/covid-19/countries</li>
+    <li>
+   Graph data for cases with date: https://disease.sh/v3/covid-19/historical/all?lastdays=all
+    </li> 
+</ul>
 
 ## GET requests returns historic data regarding active cases, deaths and recoveries (COVID 19)
 
